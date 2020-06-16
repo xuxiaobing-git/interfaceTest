@@ -15,6 +15,7 @@ def login():
     # 获取通过url请求传参的数据
     username = request.values.get('name')
     # 获取url请求传的密码，明文
+    # 333333
     pwd = request.values.get('pwd')
     # 判断用户名、密码都不为空
     if username and pwd:
