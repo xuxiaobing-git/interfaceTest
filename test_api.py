@@ -18,15 +18,15 @@ def login():
     pwd = request.values.get('pwd')
     # 判断用户名、密码都不为空
     if username and pwd:
-        if username == 'xiaoming' and pwd == '111':
-            resu = {'code': 200, 'message': '登录成功'}
-            return json.dumps(resu, ensure_ascii=False)  # 将字典转换字符串
+        if username == 'Admin' and pwd == '111':
+            Resp = {'code': 200, 'message': '登录成功'}
+            return json.dumps(Resp, ensure_ascii=False)  # 将字典转换字符串
         else:
-            resu = {'code': -1, 'message': '账号密码错误'}
-            return json.dumps(resu, ensure_ascii=False)
+            Resp = {'code': -1, 'message': '账号密码错误'}
+            return json.dumps(Resp, ensure_ascii=False)
     else:
-        resu = {'code': 10001, 'message': '参数不能为空！'}
-        return json.dumps(resu, ensure_ascii=False)
+        Resp = {'code': 10001, 'message': '参数不能为空！'}
+        return json.dumps(Resp, ensure_ascii=False)
 
 
 if __name__ == '__main__':
