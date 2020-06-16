@@ -7,6 +7,8 @@ flask： web框架，通过flask提供的装饰器@server.route()将普通函数
 '''
 # 创建一个服务，把当前这个python文件当做一个服务
 server = flask.Flask(__name__)
+
+
 # @server.route()可以将普通函数转变为服务 登录接口的路径、请求方式
 @server.route('/login', methods=['get', 'post'])
 def login():
@@ -26,6 +28,6 @@ def login():
         resu = {'code': 10001, 'message': '参数不能为空！'}
         return json.dumps(resu, ensure_ascii=False)
 
+
 if __name__ == '__main__':
     server.run(debug=True, port=8888, host='127.0.0.1')
-
