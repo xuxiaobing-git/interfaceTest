@@ -1,13 +1,4 @@
-2020-06-17 13:14:27,858 - logs… - INFO - {
+2020-10-31 21:22:06,771 - logs… - INFO - {
   "code": 10001,
   "message": "参数不能为空！"
 }
-2020-06-17 13:44:17,161 - logs… - INFO - send email ok!!!!
-2020-06-17 13:48:20,603 - logs… - INFO - resultPathD:\interfaceTest\result\report.html
-2020-06-17 13:48:20,604 - logs… - INFO - caseListFileD:\interfaceTest\caselist.txt
-2020-06-17 13:48:20,604 - logs… - INFO - caseList[]
-2020-06-17 13:48:23,525 - logs… - INFO - send email ok!!!!
-2020-06-17 13:52:29,572 - logs… - INFO - resultPathD:\interfaceTest\result\report.html
-2020-06-17 13:52:29,573 - logs… - INFO - caseListFileD:\interfaceTest\caselist.txt
-2020-06-17 13:52:29,573 - logs… - INFO - caseList[]
-2020-06-17 13:52:32,487 - logs… - INFO - send email ok!!!!
