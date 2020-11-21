@@ -81,7 +81,7 @@ class AllTest:  # 定义一个类AllTest
                 print("Have no case to test.")
         except Exception as ex:
             print(str(ex))
-            # log.info(str(ex))
+            # log.info(str(ex))00
 
         finally:
             print("*********TEST END*********")
